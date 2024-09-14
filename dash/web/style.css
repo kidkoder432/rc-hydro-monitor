@@ -1,0 +1,32 @@
+body {
+    font-family: monospace;
+}
+
+#v,
+#a {
+    height: 2%;
+    display: flex;
+}
+
+.d {
+    float: left;
+    border: 1px solid black;
+    border-radius: 4px;
+    width: 90%;
+    height: 100%;
+    display: flex;
+    justify-content: left;
+}
+
+.r {
+    color: red
+}
+
+#vp,
+#ap {
+    height: 100%;
+    flex: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
