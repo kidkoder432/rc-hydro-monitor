@@ -23,3 +23,7 @@ In addition, this is the first iteration of the system with a visual dashboard, 
 5. Turn on both Arduinos. Wait for a few seconds to establish a connection. Once a connection is established and the slave Arduino is receiving data, a green light will blink on the Arduino.
 6. Start the Python script. A browser window will open and you should be able to see the voltage and current readings coming from the car, as well as an approximation of how long it is until they run out.
 
+Special thanks to Independence High School RC Hydrogen Car Club for the opportunity to work on this project. 
+
+Shoutout to @thunderacegaming for bug fixes.
+
