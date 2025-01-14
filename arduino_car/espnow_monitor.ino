@@ -42,9 +42,9 @@ struct Packet getReadings() {
   int voltageReading = analogRead(A1);
   Serial.print("Voltage Reading: ");
   Serial.println(voltageReading);
-  readings.average_voltage = fmap(voltageReading, 0.0, 4096.0 * (8.6 / (5.0 / 3.3)), 0.0, 8.6);
+  readings.voltage = fmap(voltageReading, 0.0, 4096.0 * (8.6 / (5.0 / 3.3)), 0.0, 8.6);
   Serial.print("Average Voltage: ");
-  Serial.println(readings.average_voltage);
+  Serial.println(readings.voltage);
 
   return readings;
 }
